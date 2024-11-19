@@ -31,14 +31,14 @@ def noise_level( s_s,s_d,fc,bw,verbose):
     # C4.2 Noise Level 1000Hz:  NL_1K
     if s_s ==0:
         nl_1k = 44.5
-    elif s_s <= ...
+#     elif s_s <= ...
     
     ...
     
-    elif s_s <= 5:
-        nl_1k = 68.5
-    else:
-        nl_1k=70
+#     elif s_s <= 5:
+#         nl_1k = 68.5
+#     else:
+#         nl_1k=70
 
     # C4.5 Calculating the Lower and Upper Cut-Off Frequency of the Band
     f = np.zeros(2)
